@@ -1,0 +1,165 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6rem;
+  background-color: chartreuse;
+  overflow-x: hidden;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+  color: green;
+  margin-bottom: 1rem;
+}
+.title {
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+  color: green;
+}
+.text-justify {
+    text-align: center;
+}
+    /* scroll bar start */
+/*[must] width */
+::-webkit-scrollbar {
+  width: 20px;
+  background: greenyellow;
+}
+
+/* Tracker */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px gray; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #02ac02;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #02ac02d7;
+}
+/* scroll bar end */
+ /*  white scroll bar start */
+#white-scroll-bar {
+  width: 80%;
+  height: 20rem;
+  margin: auto;
+  margin-top: 2rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #eec34dc5;
+}
+#white-scroll-bar h2 {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: inset 0 0 0.5rem gray; 
+  background-color: goldenrod;
+}
+#white-scroll-bar::-webkit-scrollbar {
+  width: 20px;
+  background: #eec34dc5;
+}
+#white-scroll-bar::-webkit-scrollbar-thumb {
+  background: antiquewhite;
+}
+/* rounded white scroll bar end */
+
+/* yellow scroll bar start */
+#yellow-scroll-bar {
+  width: 80%;
+  height: 20rem;
+  background-color: yellow;
+  margin: auto;
+  margin-top: 2rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#yellow-scroll-bar h2 {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: inset 0 0 5px gray; 
+  background-color: yellowgreen;
+}
+#yellow-scroll-bar::-webkit-scrollbar {
+  width: 20px;
+  background: #99cd32ca;
+}
+#yellow-scroll-bar::-webkit-scrollbar-thumb {
+  background: yellow;
+}
+/* yellow scroll bar end */
+
+
+/* black scroll bar start */
+#black-scroll-bar {
+  width: 80%;
+  height: 20rem;
+  background-color: #8b8b6dd5;
+  margin: auto;
+  margin-top: 2rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#black-scroll-bar h2 {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: inset 0 0 5px gray; 
+  background-color: yellowgreen;
+}
+#black-scroll-bar::-webkit-scrollbar {
+  width: 20px;
+  background: #99cd32ca;
+}
+#black-scroll-bar::-webkit-scrollbar-thumb {
+  background: black;
+}
+/* black scroll bar end */
+
+
+/* blue scroll bar start */
+#blue-scroll-bar {
+  width: 80%;
+  height: 20rem;
+  background-color: #4b60d6d5;
+  margin: auto;
+  color: white;
+  margin-top: 2rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-bottom: 2rem;
+}
+#blue-scroll-bar h2 {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: inset 0 0 5px gray; 
+  background-color: yellowgreen;
+}
+#blue-scroll-bar::-webkit-scrollbar {
+  width: 20px;
+  background: #a1a2f5ca;
+}
+#blue-scroll-bar::-webkit-scrollbar-thumb {
+  background: blue;
+}
+/* blue scroll bar end */
